@@ -12,14 +12,14 @@ class Content extends React.Component {
     }
     
 	render() {
-		return (<article>
+		return (<section>
 		<h1>Messages</h1>
 		    <h2>Send Message</h2>
         		<form>
                     Name <input type="text" /><br />
                     Email <input type="email" /><br />
                     Message <textarea></textarea><br />
-                    <input type="submit"/>
+                    <button>Send Message</button>
               </form>
             <h2>Sent Messages</h2>
         		<table>
@@ -35,7 +35,7 @@ class Content extends React.Component {
         		    </tr>
     		    </table>
 		
-		</article>);
+		</section>);
 	}
 }
 
