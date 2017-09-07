@@ -9,7 +9,8 @@
   },
   "author": "@jestrade",
   "dependencies": {
-    "express": "^4.15.3"
+    "express": "^4.15.3",
+    "firebase": "^4.3.0"
   },
   "devDependencies": {
     "babel-core": "^5.3.3",
