@@ -1,0 +1,41 @@
+{
+  "name": "react",
+  "version": "0.0.0",
+  "description": "ReactApp.",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "https://jestrade.github.com/react"
+  },
+  "author": "@jestrade",
+  "dependencies": {
+    "express": "^4.15.3"
+  },
+  "devDependencies": {
+    "babel-core": "^5.3.3",
+    "babel-loader": "^5.0.0",
+    "clean-webpack-plugin": "^0.1.16",
+    "css-loader": "^0.12.0",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "jsx-loader": "^0.13.2",
+    "node-sass": "^2.1.1",
+    "nodemon": "^1.11.0",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "react-hot-loader": "^1.3.1",
+    "sass-loader": "^0.5.0",
+    "style-loader": "^0.12.2",
+    "webpack": "^1.9.5"
+  },
+  "scripts": {
+    "start": "nodemon --use_strict server.js",
+    "build": "webpack"
+  },
+  "keywords": [
+    "react",
+    "javascript",
+    "html",
+    "css"
+  ],
+  "license": "ISC"
+}
